@@ -1,14 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:instagram/screens/home_screen.dart';
+import 'package:instagram/style.dart' as style;
 
 void main() {
-  runApp(MaterialApp(home: MyApp()));
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(), body: Text('main'));
-  }
+  runApp(MaterialApp(theme: style.theme, home: HomeScreen()));
 }
