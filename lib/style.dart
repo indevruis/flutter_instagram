@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 var theme = ThemeData(
-    iconTheme: IconThemeData(color: Colors.black),
+    iconTheme: IconThemeData(color: Colors.black, size: 30),
+    textTheme:
+        TextTheme(bodyMedium: TextStyle(fontSize: 16.0, color: Colors.black)),
     appBarTheme: AppBarTheme(
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.white,
       elevation: 0.0,
       titleTextStyle: TextStyle(
           color: Colors.black,
