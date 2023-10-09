@@ -11,4 +11,11 @@ var theme = ThemeData(
           fontSize: 30,
           fontWeight: FontWeight.w300),
       actionsIconTheme: IconThemeData(color: Colors.black, size: 30.0),
+    ),
+    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      selectedItemColor: Colors.black,
+      unselectedItemColor: Colors.black,
+      selectedIconTheme: IconThemeData(size: 30),
+      unselectedIconTheme: IconThemeData(size: 27),
+      type: BottomNavigationBarType.fixed,
     ));
